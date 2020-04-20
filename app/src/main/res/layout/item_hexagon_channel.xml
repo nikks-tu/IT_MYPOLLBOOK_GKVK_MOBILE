@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="@drawable/hexagon"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_five"
+        android:layout_margin="@dimen/margin_five">
+        <com.techuva.iot.ngt.views.TextViewIcomoon
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/activity_navigation_large"
+            android:paddingLeft="@dimen/margin_five"
+            android:paddingRight="@dimen/margin_five"
+            android:id="@+id/tv_channel_icon"
+            android:textColor="@color/blue_light"
+            android:layout_margin="@dimen/margin_five"/>
+    </LinearLayout>
+
+</LinearLayout>
